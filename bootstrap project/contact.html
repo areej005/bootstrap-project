@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="StyleSheetnew.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        p {
+            color: #37109a;
+            font: 160% arial verdana;
+        }
+
+        h1 {
+            color: #144b74;
+            font: bold xx-large arial verdana;
+        }
+
+        span {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark  navbar-dark">
+
+        <a class="navbar-brand" href="#">
+            <img src="image/82.jpg" alt="logo" style="width:30px" />
+
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+                <button type="button" class="btn btn-secondary btn-sm">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://localhost:44336/index.html">home</a>
+                </li>
+                </button>&nbsp;
+
+
+
+                <button type="button" class="btn btn-secondary btn-sm">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://localhost:44336/about.html">about</a>
+                </li></button>&nbsp;
+
+
+
+                <button type="button" class="btn btn-secondary btn-sm">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://localhost:44336/contact.html">contact</a>
+                </li></button>&nbsp;
+
+            </ul>
+            <form class="form-inline" action="/action_page.php">
+                <div id="button"><input class="form-control mr-sm-2" type="text" placeholder="Search"></div>
+
+            </form>
+        </div>
+    </nav>
+    <br />
+    <div class="tab-content">
+        <div id="contact" class="container tab-pane active">
+            <br>
+            <center> <h1><span>CONTACT</span>  US </h1> </center>
+            <div class="container">
+                <div id="frm">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+
+                                <input type="text" class="form-control" id="Name" placeholder="Enter Name" name="text">
+
+                            </div>
+                            <div class="col">
+                                <input type="Number" class="form-control" placeholder="Enter Number" name="number">
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+
+                    <form>
+
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                            </div>
+                            <div class="col">
+                                <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                            </div>
+                        </div>
+                    </form>
+                    <br />
+                    <form>
+                       
+                        <div class="form-row">
+                            <div class="col">
+                                
+                                    <textarea type="comment" class="form-control" rows="6" id="comment">Text Message</textarea>
+                                </div>
+                            
+
+                        </div>
+                    </form>
+                        
+        </div>
+                <br />
+
+                <form>
+
+                    <div class="form-row">
+                        <div class="col">
+                            <center>
+                                <button type="button" class="btn btn-primary">Send Message</button>
+                            </center>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    <br />
+
+            <footer>
+                <p id="foot">
+                    contact us for more information<br>
+                    <a href="areej@gmail.com">areej@gmail.com</a><br />
+                  <i  class="fa fa-phone" style="font-size:20px;color:white"></i>&nbsp;&nbsp;<i class="fa fa-facebook-f" style="font-size:20px;color:white"></i>&nbsp;&nbsp;<i class="fa fa-youtube-play" style="font-size:20px;color:white"></i>&nbsp;&nbsp;<i class="fa fa-google-plus" style="font-size:20px;color:white"></i>
+                </p>
+            </footer>
+</body>
+</html>
